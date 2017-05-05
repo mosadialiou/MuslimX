@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MuslimX</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="defi_collectif">DEFI COLLECTIF</string>
+    <string name="je_lance_un_defi_collectif">Je lance un défi collectif...</string>
+    <string name="walkthrough_defi_desc">Dans ce défi collectif, on cherche à rassembler le maximum de personnes intéressées par le défi pour le lever ensemble...</string>
+
+    <string name="walkthrough_partager_title">PARTAGER</string>
+    <string name="walkthrough_partager_subtitle">Je partage mes services et mes objets...</string>
+    <string name="walkthrough_partager_desc">Je partage mes services et mes objets.</string>
+
+
+    <string name="walkthrough_se_divertir_title">SE DIVERTIR</string>
+    <string name="walkthrough_se_divertir_subtitle">"J'organise des services de groupes..."</string>
+    <string name="walkthrough_se_divertir_desc">"Cinéma, restaurant, théâtre, camping et voyage"</string>
+
+
+    <string name="walkthrough_espace_pro_title">ESPACE PRO</string>
+    <string name="walkthrough_espace_pro_subtitle">"Je partage les offres d'emploi et de stages..."</string>
+    <string name="walkthrough_espace_pro_desc">"Je partage mes services et mes objets."</string>
+</resources>

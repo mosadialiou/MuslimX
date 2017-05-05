@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/app_blue</color>
+    <color name="colorPrimaryDark">@color/app_blue</color>
+    <color name="colorAccent">@color/app_blue</color>
+
+    <color name="app_blue">#0082cb</color>
+
+    <color name="connexion_txt_color">#363636</color>
+
+</resources>

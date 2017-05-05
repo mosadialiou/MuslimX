@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/connexion_bg" />
+
+    <ImageView
+        android:id="@+id/logo_imgV"
+        android:layout_width="91.66dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/connexion_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_imgV"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/connexion_inner_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="52dp">
+
+        <EditText
+            android:id="@+id/email_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_mail"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/ic_mail"
+            android:hint="Email"
+            android:textAppearance="@style/TextViewStyleLight"
+            android:textColor="@color/connexion_txt_color"
+            android:textColorHint="@color/connexion_txt_color"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/pwd_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_pass"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/ic_pass"
+            android:hint="Mot de passe"
+            android:textAppearance="@style/TextViewStyleLight"
+            android:textColor="@color/connexion_txt_color"
+            android:textColorHint="@color/connexion_txt_color"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/forgot_pwd_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:minHeight="10dp"
+            android:text="Mot de passe oublié?"
+            android:textAppearance="@style/TextViewStyleLight"
+            android:textColor="@color/connexion_txt_color"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/signin_but"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/forgot_pwd_link"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/connexion_but_bg"
+                android:text="Connexion"
+                android:textAppearance="@style/TextViewStyleRegular"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/signup_but"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/signin_but"
+                android:layout_weight="1"
+                android:background="@drawable/inscription_but_bg"
+                android:text="Inscription"
+                android:textAppearance="@style/TextViewStyleRegular"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/facebook_but"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/signin_but"
+            android:layout_marginTop="49dp"
+            android:background="@drawable/facebook_but_bg"
+            android:text="Connexion avec facebook"
+            android:textAppearance="@style/TextViewStyleRegular"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/logo_small_imgV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mentions_lbl"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/connexion_logo_grey" />
+
+    <TextView
+        android:id="@+id/mentions_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="5dp"
+        android:text="Mentions légales"
+        android:textAppearance="@style/TextViewStyleLight"
+        android:textColor="@color/connexion_txt_color"
+        android:textSize="9sp" />
+
+
+</RelativeLayout>
